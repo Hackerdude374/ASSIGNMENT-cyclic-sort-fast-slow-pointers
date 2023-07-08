@@ -30,7 +30,7 @@ function findMissingNumber(array){
     let i = 0;
     while(i < array.length){
         const correctIndex = array[i] -1;  //get the correct Index using cyclic sort logic.
-        if(i!== correctIndex){
+        if(array[i]!== correctIndex){
                 [array[i], array[correctIndex]] = [array[correctIndex], array[i]];  // swap
         }
         i++;
@@ -63,3 +63,5 @@ console.log("the missing element is " + findMissingNumber(arr3));
 
 let arr5 = [3,1,5,4,2];
 console.log(findMissingNumber(arr5));
+
+module.exports = findMissingNumber;

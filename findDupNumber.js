@@ -2,7 +2,7 @@
 
 287. Find the Duplicate Number
 Medium
-19.8K
+19.8K/
 3.1K
 Companies
 Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.

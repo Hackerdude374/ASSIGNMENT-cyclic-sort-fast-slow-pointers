@@ -1,7 +1,7 @@
 /*Problem Description: Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array),
  some elements appear twice and others appear once. 
  Find all the elements that appear twice in the array.*/
-
+//
 
 //ok so we know some elements appear once and twice
 //we know cyclic sort usually sorts the arrays by unique elements first, then any duplicates or numbers like 0 are pushed in the back or in the worng index, in random order
